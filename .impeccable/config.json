@@ -11,16 +11,6 @@
         ],
         "createdAt": "2026-10-08T04:45:53.277Z",
         "reason": "Agent: Chrome measured trip-strip divider cells with 25px right inset on desktop and 14px left inset at mobile left borders; the checklist section has 55px top inset on desktop and 36px on mobile. Static analyzer misses logical padding shorthands. Outer edges without borders intentionally have no inset."
-      },
-      {
-        "rule": "wide-tracking",
-        "value": "*",
-        "files": [
-          "index.html",
-          "styles.css"
-        ],
-        "createdAt": "2026-10-08T04:45:53.313Z",
-        "reason": "Agent: tracking above .05em occurs only in short uppercase trip-strip and NIGHT 1/NIGHT 2 labels, the explicit rule exception; paragraph text uses normal tracking."
       }
     ]
   }

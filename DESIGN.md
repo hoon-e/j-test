@@ -1,5 +1,5 @@
 ---
-name: Kansai, together
+name: 간사이 드라이브
 description: Daylight, sea-glass color, and clear choices for a little Kansai escape.
 colors:
   ink: "#183e36"
@@ -12,30 +12,30 @@ colors:
   white: "#ffffff"
 typography:
   display:
-    fontFamily: "DM Sans, sans-serif"
-    fontSize: "clamp(46px, 5.25vw, 74px)"
+    fontFamily: "DM Sans, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
+    fontSize: "clamp(42px, 4.4vw, 64px)"
     fontWeight: 700
     lineHeight: 1.08
     letterSpacing: "-0.025em"
   display-emphasis:
-    fontFamily: "Lora, serif"
+    fontFamily: "inherit"
     fontSize: "0.96em"
-    fontWeight: 500
+    fontWeight: 700
     lineHeight: 1.08
     letterSpacing: "-0.025em"
   headline:
-    fontFamily: "DM Sans, sans-serif"
+    fontFamily: "DM Sans, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
     fontSize: "34px"
     fontWeight: 700
     lineHeight: 1.18
     letterSpacing: "-0.025em"
   body:
-    fontFamily: "DM Sans, sans-serif"
+    fontFamily: "DM Sans, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
     fontSize: "15px"
     fontWeight: 400
     lineHeight: 1.6
   control:
-    fontFamily: "DM Sans, sans-serif"
+    fontFamily: "DM Sans, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
     fontSize: "13px"
     fontWeight: 500
     lineHeight: 1.4
@@ -68,7 +68,7 @@ components:
     padding: "21px 23px 22px"
 ---
 
-# Design System: Kansai, together
+# Design System: 간사이 드라이브
 
 ## Overview
 
@@ -80,7 +80,7 @@ Deep teal is used for primary actions, selection, and strong text. Sea-glass min
 
 ## Typography
 
-DM Sans carries navigation, headings, and content. Lora italic is confined to the hero emphasis. Fonts are self-hosted. Display type scales down to 40–58px on small screens; section headings become 27px. Functional labels stay at least 12px. Descriptive itinerary, place, access, and checklist content stays at least 14px on screen, with generous line height. Print text stays at least 12px. Wide tracking is confined to short uppercase trip and night labels.
+Korean copy uses the device’s Korean sans serif (Apple SD Gothic Neo or Malgun Gothic); Latin characters use self-hosted DM Sans. The hero emphasis uses the same family and weight, with green color and no italic styling. Korean words stay together where space allows, with wrapping for long strings. Display type scales down to 40–58px on small screens; section headings become 27px. Functional labels stay at least 12px. Descriptive itinerary, place, access, and checklist content stays at least 14px on screen, with generous line height. Print text stays at least 12px. Trip and night labels use normal tracking.
 
 ## Layout
 

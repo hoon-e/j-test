@@ -18,7 +18,7 @@ Help the group compare nearby road-trip routes and find gyms, restaurants, and s
 Three suggested routes, three-day itineraries, categorized places, official venue links, directions, and a personal shortlist. A suggested route is selected by default. Dates, budget, dietary requirements, and fitness memberships are unspecified. Driving times are planning estimates. Visitor gym access must be stated honestly.
 
 ## Operating Context
-The user explicitly authorizes creation and GitHub Pages deployment. The repository is empty, public, and connected to hoon-e/j-test. English copy is inferred from the request. Route and design choices are agent assumptions under the user's instruction to execute without confirmation.
+The user explicitly authorizes creation and GitHub Pages deployment. The repository is empty, public, and connected to hoon-e/j-test. The user requests Korean copy with plain, practical travel guidance. Route and design choices are agent assumptions under the user's instruction to execute without confirmation.
 
 ## Evidence on Hand
 Official tourism and venue sources will be linked with individual places. No bookings, availability, or real-time traffic data are supplied.

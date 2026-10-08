@@ -7,7 +7,7 @@ Job: five friends choose a two-night road trip from Namba and shortlist useful s
 THESIS: One route choice organizes the entire trip; remove booking forms, accounts, budget sliders, and a separate map interface.
 OWN-WORLD: A Setouchi coastal atlas expressed through deep teal type, sea-glass fields, daylight photography, generous spacing, and a single connected route strip.
 STORY: Compare three escapes, select one, see where to sleep each night, then find places to eat, explore, and train.
-FIRST VIEWPORT: A compact top navigation; an oversized two-line invitation opposite a bridge photograph; a five-person trip summary; then three photographic route choices. The primary action goes directly to those choices. The selected route has a conspicuous check and border.
+FIRST VIEWPORT: A compact top navigation; an oversized two-line Korean trip title opposite a bridge photograph; a five-person trip summary; then three photographic route choices. The primary action goes directly to those choices. The selected route has a conspicuous check and border.
 FORM: Coastal atlas, candidate six, seed b8e7f796. Code-led under the user's autonomous execution instruction; no standing workflow preference is recorded. Physical scene: a group compares destinations on phones in a bright café, requiring a light, high-contrast surface.
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
 
@@ -16,3 +16,5 @@ Challenger verdicts: exposure record, acetate manual, mascot catalog, developer 
 Signature interaction: choosing a route updates the connected stop strip, both overnight bases, the daily itinerary, and nearby places together. The route strip reveals on initial load and respects reduced motion.
 
 Steve Jobs pass: the essence is choosing an enjoyable trip together. Omitted features: account creation, booking checkout, budget calculation, and a second navigation drawer. A usable default itinerary requires zero clicks; another complete route requires one.
+
+Copy: Korean travel-guide prose. Use concrete itinerary headings and clear actions. Omit promotional slogans and decorative stamps. Preserve venue facts, access conditions, estimates, and source links.
