@@ -1,107 +1,106 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#174d42">
-  <meta name="description" content="Three two-night road trips from Namba, Osaka, for five friends. Compare routes, plan three days, and find sightseeing, dining, and gym stops.">
-  <title>Kansai, together — A little road trip from Osaka</title>
+  <meta name="description" content="오사카 난바에서 출발하는 5명 기준 2박 3일 드라이브. 코스별 일정과 숙박 지역, 식당, 관광지, 헬스장을 확인하세요.">
+  <title>간사이 드라이브 | 난바 출발 2박 3일 여행</title>
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="./assets/dm-sans-regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="./assets/dm-sans-bold.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="./styles.css?v=20261008-2">
-  <script type="module" src="./app.mjs"></script>
+  <link rel="stylesheet" href="./styles.css?v=20261008-ko">
+  <script type="module" src="./app.mjs?v=20261008-ko"></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to trip planner</a>
+  <a class="skip-link" href="#main">여행 계획으로 바로가기</a>
   <header class="site-header wrap">
-    <a class="brand" href="./" aria-label="Kansai, together home">
+    <a class="brand" href="./" aria-label="간사이 드라이브 홈">
       <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m26 13-4 11-9 3 4-11z" fill="currentColor"/><circle cx="20" cy="20" r="2" fill="#fbfcf8"/></svg>
-      <span>Kansai<span class="brand-comma">,</span> together<span class="brand-dot">.</span></span>
+      <span>간사이 드라이브</span>
     </a>
-    <nav aria-label="Main navigation">
-      <a href="#routes">The routes</a>
-      <a href="#itinerary">Your three days</a>
-      <a href="#places">Places to stop</a>
+    <nav aria-label="주요 메뉴">
+      <a href="#routes">여행 코스</a>
+      <a href="#itinerary">2박 3일 일정</a>
+      <a href="#places">들를 곳</a>
     </nav>
-    <button class="saved-button" id="saved-button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span>Saved</span><span id="saved-count" class="saved-count">0</span></button>
+    <button class="saved-button" id="saved-button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg><span>저장</span><span id="saved-count" class="saved-count">0</span></button>
   </header>
 
   <main id="main">
     <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <h1 id="hero-title">Good company.<br><em>Great detours.</em></h1>
-        <p>Five people. Two nights. A little freedom.<br>Find your way out of Osaka, with good food,<br class="desktop-break"> fresh air, and a few stops worth taking.</p>
-        <div class="hero-actions"><a class="button primary" href="#routes">Find your road trip <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a><a class="text-link" href="#places">Explore the stops <span aria-hidden="true">↗</span></a></div>
-        <div class="hero-note"><span class="little-dot"></span> Three escapes. One starting point: Namba.</div>
+        <h1 id="hero-title">난바에서 떠나는<br><em>2박 3일 여행</em></h1>
+        <p>5명이 렌터카 한 대로 다녀오는 일정입니다.<br>코스별 숙박 지역과 식당, 관광지, 헬스장을 모았습니다.</p>
+        <div class="hero-actions"><a class="button primary" href="#routes">코스 고르기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a><a class="text-link" href="#places">장소 살펴보기 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="little-dot"></span> 난바 출발 · 코스 3개</div>
       </div>
       <figure class="hero-photo">
-        <img src="./assets/bridge.webp" alt="Akashi Kaikyo Bridge stretching across the sea toward Awaji Island" width="1600" height="1067" fetchpriority="high">
-        <figcaption><span>A bridge to somewhere slower.</span><span class="photo-location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> Awaji Island, Hyogo</span></figcaption>
-        <span class="photo-stamp" aria-hidden="true">TAKE<br>THE<br>SCENIC WAY</span>
+        <img src="./assets/bridge.webp" alt="바다를 건너 아와지섬으로 이어지는 아카시 해협대교" width="1600" height="1067" fetchpriority="high">
+        <figcaption><span>아카시 해협대교</span><span class="photo-location"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg> 효고현 아와지섬</span></figcaption>
       </figure>
     </section>
 
-    <div class="trip-strip wrap" aria-label="Trip overview">
-      <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span><small>STARTING POINT</small><strong>Namba, Osaka</strong></span></div>
-      <div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4m8-4v4M4 10h16m-11 4h2m2 0h2"/></svg><span><small>TIME TO GET AWAY</small><strong>3 days · 2 nights</strong></span></div>
-      <div><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2m1-15a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 5"/></svg><span><small>BETTER TOGETHER</small><strong>5 travelers</strong></span></div>
-      <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 10 2-5h10l2 5M3 10h18v8H3zM6 18v3m12-3v3M6 14h2m8 0h2"/></svg><span><small>ROOM FOR THE WHOLE CREW</small><strong>One roomy rental</strong></span></div>
+    <div class="trip-strip wrap" aria-label="여행 정보">
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span><small>출발지</small><strong>오사카 난바</strong></span></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4m8-4v4M4 10h16m-11 4h2m2 0h2"/></svg><span><small>여행 기간</small><strong>2박 3일</strong></span></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2m1-15a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 5"/></svg><span><small>인원</small><strong>5명</strong></span></div>
+      <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 10 2-5h10l2 5M3 10h18v8H3zM6 18v3m12-3v3M6 14h2m8 0h2"/></svg><span><small>이동 수단</small><strong>짐이 들어가는 렌터카 1대</strong></span></div>
     </div>
 
     <section class="routes-section wrap section-space" id="routes" aria-labelledby="routes-title">
-      <div class="section-heading"><div><h2 id="routes-title">Which way feels like you?</h2><p>Three ways to spend two nights. Pick one to make it your plan.</p></div><span class="section-aside">All roads start in Namba <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M7 5h12v12"/></svg></span></div>
+      <div class="section-heading"><div><h2 id="routes-title">여행 코스 고르기</h2><p>코스를 선택하면 아래 일정과 장소가 함께 바뀝니다.</p></div></div>
       <div class="route-grid" id="route-options"></div>
-      <p class="fine-print">Drive times are estimates from Namba to the first destination, before stops. Traffic, tolls, and parking are extra considerations.</p>
+      <p class="fine-print">운전시간은 난바에서 첫 목적지까지의 예상 시간이며, 중간에 쉬는 시간은 제외했습니다. 교통 상황과 통행료, 주차도 확인하세요.</p>
     </section>
 
     <section class="itinerary-section" id="itinerary" aria-labelledby="itinerary-title">
       <div class="wrap itinerary-wrap">
-        <div class="section-heading"><div><h2 id="itinerary-title">A plan, with room to wander.</h2><p id="itinerary-subtitle"></p></div><button class="button outline" id="print-button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H3V9h18v9h-3M6 14h12v7H6zm11-2h1"/></svg> Print trip</button></div>
+        <div class="section-heading"><div><h2 id="itinerary-title">2박 3일 일정</h2><p id="itinerary-subtitle"></p></div><button class="button outline" id="print-button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H3V9h18v9h-3M6 14h12v7H6zm11-2h1"/></svg> 일정 인쇄</button></div>
         <div class="itinerary-layout">
           <div class="itinerary-main">
-            <div class="day-tabs" id="day-tabs" role="tablist" aria-label="Itinerary day"></div>
+            <div class="day-tabs" id="day-tabs" role="tablist" aria-label="여행 날짜 선택"></div>
             <div id="day-panel" role="tabpanel" tabindex="0"></div>
             <div id="print-days" class="print-only"></div>
           </div>
-          <aside class="route-summary" aria-label="Selected route details">
-            <div class="summary-heading"><span>Your little loop</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zm10 10h6v6h-6zM7 10v4a3 3 0 0 0 3 3h4m3-3V7a3 3 0 0 0-3-3"/></svg></div>
+          <aside class="route-summary" aria-label="선택한 코스 정보">
+            <div class="summary-heading"><span>이동 동선</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zm10 10h6v6h-6zM7 10v4a3 3 0 0 0 3 3h4m3-3V7a3 3 0 0 0-3-3"/></svg></div>
             <div id="route-line" class="route-line"></div>
             <div class="night-list" id="night-list"></div>
             <p class="route-tip" id="route-tip"></p>
-            <a class="button primary map-button" id="route-map" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Open driving loop <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
-            <p class="map-note">Route overview in Google Maps</p>
+            <a class="button primary map-button" id="route-map" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">운전 경로 보기 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
+            <p class="map-note">구글 지도에서 확인</p>
           </aside>
         </div>
       </div>
     </section>
 
     <section class="places-section wrap section-space" id="places" aria-labelledby="places-title">
-      <div class="section-heading"><div><h2 id="places-title">Good stops make a great trip.</h2><p id="places-subtitle">A few places to explore, eat well, and keep moving.</p></div><span id="places-count" class="section-aside"></span></div>
-      <div class="filter-bar" aria-label="Filter places" id="filters">
-        <button class="filter active" data-category="all" aria-pressed="true">All stops</button>
-        <button class="filter" data-category="sights" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 20 7-13 4 7 3-4 4 10ZM8 11l2 2 2-2"/></svg> Sightseeing</button>
-        <button class="filter" data-category="food" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3v7m4-7v7m-6-7v5a4 4 0 0 0 8 0V3M7 12v9M19 3c-3 2-4 5-4 9h4m0-9v18"/></svg> Food & drink</button>
-        <button class="filter" data-category="gyms" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8v8m4-11v14m10-14v14m4-11v8M7 12h10"/></svg> Gyms & fitness</button>
-        <button class="filter saved-filter" id="saved-filter" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg> My saved stops</button>
+      <div class="section-heading"><div><h2 id="places-title">들를 만한 곳</h2><p id="places-subtitle">관광지와 식당, 운동할 곳을 살펴보세요.</p></div><span id="places-count" class="section-aside"></span></div>
+      <div class="filter-bar" aria-label="장소 분류" id="filters">
+        <button class="filter active" data-category="all" aria-pressed="true">전체</button>
+        <button class="filter" data-category="sights" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 20 7-13 4 7 3-4 4 10ZM8 11l2 2 2-2"/></svg> 관광지</button>
+        <button class="filter" data-category="food" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3v7m4-7v7m-6-7v5a4 4 0 0 0 8 0V3M7 12v9M19 3c-3 2-4 5-4 9h4m0-9v18"/></svg> 식당·먹거리</button>
+        <button class="filter" data-category="gyms" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8v8m4-11v14m10-14v14m4-11v8M7 12h10"/></svg> 헬스장</button>
+        <button class="filter saved-filter" id="saved-filter" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v17l-6-4-6 4z"/></svg> 저장한 장소</button>
       </div>
       <div class="place-grid" id="place-list"></div>
-      <p class="source-note">Every stop links to an official source. Details checked <span id="checked-date"></span>; confirm current hours, fees, and access before your visit. Photos show the named destination or labeled inspiration.</p>
+      <p class="source-note">장소마다 공식 안내 링크를 달았습니다. 정보 확인일: <span id="checked-date"></span>. 방문 전 영업시간, 요금, 이용 조건을 다시 확인하세요. 사진은 해당 지역의 모습 또는 설명에 표시한 참고 사진입니다.</p>
     </section>
 
     <section class="before-section wrap" id="before-you-go" aria-labelledby="before-title">
-      <div class="before-copy"><h2 id="before-title">A little planning.<br>A lot more freedom.</h2><p>The essentials for a smooth trip with five.<br>Tick them off together before you go.</p><a class="text-link" href="#itinerary">Back to your plan <span aria-hidden="true">↑</span></a></div>
+      <div class="before-copy"><h2 id="before-title">출발 전 확인할 것</h2><p>예약과 준비가 끝난 항목에 체크하세요.</p><a class="text-link" href="#itinerary">일정으로 돌아가기 <span aria-hidden="true">↑</span></a></div>
       <div class="checklist">
-        <label><input type="checkbox"><span><strong>Book a car with room to breathe</strong><small>A 7-seat minivan is a useful starting point for five people and luggage. Confirm actual luggage space.</small></span></label>
-        <label><input type="checkbox"><span><strong>Reserve both overnight stays</strong><small>Check that the room configuration sleeps all five, and arrange parking at each stay.</small></span></label>
-        <label><input type="checkbox"><span><strong>Save a table for the whole group</strong><small>Book your sit-down dinners for five and check everyone’s dietary needs.</small></span></label>
-        <label><input type="checkbox"><span><strong>Pack for the pauses along the way</strong><small>Bring gym ID and indoor shoes. Check visitor access, opening days, and the latest driving route.</small></span></label>
+        <label><input type="checkbox"><span><strong>5명과 짐이 들어가는 차량</strong><small>7인승 미니밴을 우선 살펴보세요. 차종별 트렁크 공간은 예약 전에 확인해야 합니다.</small></span></label>
+        <label><input type="checkbox"><span><strong>두 곳의 숙소 예약</strong><small>5명이 잘 수 있는 객실 구성인지 확인하고, 각 숙소의 주차도 미리 문의하세요.</small></span></label>
+        <label><input type="checkbox"><span><strong>식당 5명 예약</strong><small>저녁 식사는 5명으로 예약하세요. 일행이 먹지 못하는 음식도 미리 확인하세요.</small></span></label>
+        <label><input type="checkbox"><span><strong>헬스장 준비물과 이용 조건</strong><small>신분증과 실내 운동화를 챙기세요. 비회원 입장 조건과 휴무일을 확인하고, 출발 전 운전 경로도 다시 살펴보세요.</small></span></label>
       </div>
     </section>
-    <noscript><div class="wrap no-script"><p>Enable JavaScript to compare routes and save places. You can also browse official guides for <a href="https://www.japan.travel/en/destinations/kansai/hyogo/awaji-island/">Awaji Island</a>, <a href="https://www.kyoto.travel/en">Kyoto</a>, and <a href="https://www.nankishirahama.jp/">Shirahama</a>.</p></div></noscript>
+    <noscript><div class="wrap no-script"><p>코스 비교와 장소 저장 기능을 쓰려면 자바스크립트를 켜주세요. 공식 여행 안내도 확인할 수 있습니다: <a href="https://www.japan.travel/en/destinations/kansai/hyogo/awaji-island/">아와지섬</a>, <a href="https://www.kyoto.travel/en">교토</a>, <a href="https://www.nankishirahama.jp/">시라하마</a>.</p></div></noscript>
   </main>
 
-  <footer class="wrap site-footer"><a class="brand footer-brand" href="./">Kansai, together<span class="brand-dot">.</span></a><p>A little further. A little closer together.</p><a href="./credits.html">Photo & font credits <span aria-hidden="true">↗</span></a></footer>
+  <footer class="wrap site-footer"><a class="brand footer-brand" href="./">간사이 드라이브</a><a href="./credits.html">사진·글꼴 출처 <span aria-hidden="true">↗</span></a></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <div class="sr-only" id="results-status" aria-live="polite"></div>
 </body>

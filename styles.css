@@ -54,9 +54,11 @@ body {
   margin: 0;
   background: var(--ground);
   color: var(--ink);
-  font-family: "DM Sans",sans-serif;
+  font-family: "DM Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
   font-size: 15px;
   line-height: 1.6;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
   -webkit-font-smoothing: antialiased
 }
 
@@ -340,14 +342,15 @@ img {
 }
 
 .hero h1 {
-  font-size: clamp(46px,5.25vw,74px);
+  font-size: clamp(42px,4.4vw,64px);
   letter-spacing: -.025em;
   line-height: 1.08
 }
 
 .hero h1 em {
-  font-family: Lora,serif;
-  font-weight: 500;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
   color: var(--accent);
   font-size: .96em;
   letter-spacing: -.025em
@@ -428,26 +431,6 @@ img {
   width: 15px
 }
 
-.photo-stamp {
-  position: absolute;
-  right: 24px;
-  top: 22px;
-  width: 82px;
-  height: 82px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  border-radius: 50%;
-  background: #e6f1d1;
-  color: var(--green);
-  font-size: 12px;
-  line-height: 1.4;
-  letter-spacing: .045em;
-  font-weight: 700;
-  transform: rotate(12deg)
-}
 
 .trip-strip {
   display: grid;
@@ -487,7 +470,7 @@ img {
 
 .trip-strip small {
   font-size: 12px;
-  letter-spacing: .08em;
+  letter-spacing: normal;
   color: var(--muted)
 }
 
@@ -914,7 +897,7 @@ img {
 
 .night-list small {
   font-size: 12px;
-  letter-spacing: .08em;
+  letter-spacing: normal;
   color: #46664f
 }
 
@@ -1530,13 +1513,7 @@ img {
   .hero-photo figcaption>span:first-child {
     font-size: 16px
   }
-  .photo-stamp {
-    width: 68px;
-    height: 68px;
-    font-size: 12px;
-    right: 16px;
-    top: 16px
-  }
+
   .trip-strip {
     grid-template-columns: 1fr 1fr;
     gap: 20px
@@ -1731,10 +1708,7 @@ img {
   .hero-photo figcaption>span:first-child {
     font-size: 18px
   }
-  .photo-stamp {
-    width: 68px;
-    height: 68px
-  }
+
   .trip-strip {
     padding-block: 22px;
     gap: 22px 12px
@@ -1751,7 +1725,7 @@ img {
   }
   .trip-strip small {
     font-size: 12px;
-    letter-spacing: .06em
+    letter-spacing: normal
   }
   .trip-strip strong {
     font-size: 12px
