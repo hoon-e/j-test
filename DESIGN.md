@@ -80,7 +80,7 @@ Deep teal is used for primary actions, selection, and strong text. Sea-glass min
 
 ## Typography
 
-DM Sans carries navigation, headings, and content. Lora italic is confined to the hero emphasis. Fonts are self-hosted. Display type scales down to 40–58px on small screens; section headings become 27px. Functional small text stays at least 11px. Dense itinerary and place content uses 12–13px, with generous line height.
+DM Sans carries navigation, headings, and content. Lora italic is confined to the hero emphasis. Fonts are self-hosted. Display type scales down to 40–58px on small screens; section headings become 27px. Functional labels stay at least 12px. Descriptive itinerary, place, access, and checklist content stays at least 14px on screen, with generous line height. Print text stays at least 12px. Wide tracking is confined to short uppercase trip and night labels.
 
 ## Layout
 

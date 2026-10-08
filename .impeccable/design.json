@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-08T04:38:06.415637+00:00",
+  "generatedAt": "2026-10-08T04:45:53.234413+00:00",
   "title": "Design System: Kansai, together",
   "extensions": {
     "shadows": [
@@ -66,7 +66,7 @@
       "refersTo": "place-card",
       "description": "A destination fact with its source and access note.",
       "html": "<article class=\"ds-card\"><h3>Awaji Hanasajiki</h3><p>Seasonal flower fields beside the sea.</p><a href=\"https://awajihanasajiki.jp/\">Official site</a></article>",
-      "css": ".ds-card{border:1px solid var(--line);border-radius:16px;padding:21px 23px 22px;background:white;color:var(--ink);font-family:'DM Sans',sans-serif}.ds-card h3{font-size:20px;line-height:1.25;margin:0}.ds-card p{color:var(--muted);font-size:12px;line-height:1.8}.ds-card a{color:var(--ink);font-size:11px;text-underline-offset:4px}.ds-card a:focus-visible{outline:3px solid #ba671e;outline-offset:5px}"
+      "css": ".ds-card{border:1px solid var(--line);border-radius:16px;padding:21px 23px 22px;background:white;color:var(--ink);font-family:'DM Sans',sans-serif}.ds-card h3{font-size:20px;line-height:1.25;margin:0}.ds-card p{color:var(--muted);font-size:14px;line-height:1.8}.ds-card a{color:var(--ink);font-size:12px;text-underline-offset:4px}.ds-card a:focus-visible{outline:3px solid #ba671e;outline-offset:5px}"
     },
     {
       "name": "Route node",

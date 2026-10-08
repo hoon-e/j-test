@@ -317,7 +317,7 @@ img {
 }
 
 .saved-count {
-  font-size: 11px;
+  font-size: 12px;
   background: var(--mint);
   border-radius: 50%;
   min-width: 22px;
@@ -372,7 +372,7 @@ img {
   align-items: center;
   gap: 8px;
   margin-top: 27px;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted)
 }
 
@@ -419,7 +419,7 @@ img {
   display: flex;
   gap: 7px;
   align-items: center;
-  font-size: 11px;
+  font-size: 12px;
   color: #f0f7ee
 }
 
@@ -442,7 +442,7 @@ img {
   border-radius: 50%;
   background: #e6f1d1;
   color: var(--green);
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.4;
   letter-spacing: .045em;
   font-weight: 700;
@@ -486,7 +486,7 @@ img {
 }
 
 .trip-strip small {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: .08em;
   color: var(--muted)
 }
@@ -556,7 +556,7 @@ img {
   padding: 6px 9px;
   background: white;
   color: var(--ink);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500
 }
 
@@ -580,7 +580,7 @@ img {
 
 .route-mood {
   color: var(--accent);
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   margin-bottom: 7px
 }
@@ -592,7 +592,7 @@ img {
 }
 
 .route-card p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.75;
   color: var(--muted);
   margin-bottom: 22px
@@ -602,7 +602,7 @@ img {
   display: flex;
   align-items: center;
   gap: 7px;
-  font-size: 11px;
+  font-size: 12px;
   margin-top: auto;
   padding-top: 15px;
   border-top: 1px solid var(--line);
@@ -618,11 +618,11 @@ img {
 .route-drive>span {
   color: var(--muted);
   margin-left: auto;
-  font-size: 11px
+  font-size: 12px
 }
 
 .fine-print {
-  font-size: 11px;
+  font-size: 14px;
   color: var(--muted);
   margin-top: 17px;
   max-width: 100ch
@@ -677,7 +677,7 @@ img {
 
 .day-tabs small {
   display: block;
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 5px
 }
 
@@ -686,7 +686,7 @@ img {
 }
 
 .day-location {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--accent)
 }
 
@@ -701,7 +701,7 @@ img {
   gap: 7px;
   align-items: center;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   margin-top: 13px;
   font-variant-numeric: tabular-nums
 }
@@ -712,7 +712,7 @@ img {
 }
 
 .day-drive small {
-  font-size: 11px
+  font-size: 12px
 }
 
 .timeline {
@@ -757,7 +757,7 @@ img {
 }
 
 .stop-time {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted)
 }
 
@@ -784,7 +784,7 @@ img {
 }
 
 .timeline p {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--muted);
   line-height: 1.75;
   margin-top: 7px;
@@ -808,7 +808,7 @@ img {
 
 .day-stay small {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   margin-left: auto;
   font-weight: 400
 }
@@ -881,7 +881,7 @@ img {
 }
 
 .route-node small {
-  font-size: 11px;
+  font-size: 12px;
   color: #456750;
   margin-left: auto
 }
@@ -913,7 +913,7 @@ img {
 }
 
 .night-list small {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: .08em;
   color: #46664f
 }
@@ -924,7 +924,7 @@ img {
 }
 
 .route-tip {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.8;
   color: #46664f;
   margin-block: 18px
@@ -933,14 +933,14 @@ img {
 .map-button {
   width: 100%;
   min-height: 44px;
-  font-size: 11px;
+  font-size: 12px;
   padding: 11px 12px;
   justify-content: space-between
 }
 
 .map-note {
   text-align: center;
-  font-size: 11px;
+  font-size: 12px;
   color: #46664f;
   margin-top: 9px
 }
@@ -1026,7 +1026,7 @@ img {
   background: linear-gradient(transparent,rgba(9,27,23,.78));
   color: white;
   padding: 32px 18px 13px;
-  font-size: 11px
+  font-size: 12px
 }
 
 .place-body {
@@ -1046,7 +1046,7 @@ img {
 }
 
 .category-label {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   border-radius: 4px;
   padding: 3px 7px;
@@ -1108,7 +1108,7 @@ img {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted);
   margin-top: 10px
 }
@@ -1120,13 +1120,13 @@ img {
 
 .place-body>p:not(.place-note) {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
   margin-top: 15px
 }
 
 .place-note {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.75;
   color: var(--muted);
   margin-top: 15px;
@@ -1143,7 +1143,7 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
   margin-top: auto
 }
@@ -1210,7 +1210,7 @@ img {
 }
 
 .source-note {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.8;
   color: var(--muted);
   max-width: 110ch;
@@ -1230,7 +1230,7 @@ img {
 }
 
 .empty-state p {
-  font-size: 13px;
+  font-size: 14px;
   margin: 13px auto 22px;
   color: var(--muted);
   max-width: 60ch
@@ -1251,7 +1251,7 @@ img {
 
 .before-copy>p {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 17px;
   line-height: 1.8
 }
@@ -1292,7 +1292,7 @@ img {
 }
 
 .checklist small {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.75;
   color: var(--muted)
 }
@@ -1316,7 +1316,7 @@ img {
 }
 
 .site-footer p,.site-footer>a:last-child {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--muted)
 }
 
@@ -1448,7 +1448,7 @@ img {
     gap: 10px
   }
   .trip-strip small {
-    font-size: 11px
+    font-size: 12px
   }
   .trip-strip strong {
     font-size: 12px
@@ -1516,7 +1516,7 @@ img {
   }
   .hero-note {
     margin-top: 16px;
-    font-size: 11px
+    font-size: 12px
   }
   .hero-copy>p {
     margin-top: 18px
@@ -1533,7 +1533,7 @@ img {
   .photo-stamp {
     width: 68px;
     height: 68px;
-    font-size: 11px;
+    font-size: 12px;
     right: 16px;
     top: 16px
   }
@@ -1553,7 +1553,7 @@ img {
     font-size: 13px
   }
   .trip-strip small {
-    font-size: 11px
+    font-size: 12px
   }
   .section-space {
     padding-block: 55px
@@ -1565,7 +1565,7 @@ img {
     font-size: 13px
   }
   .section-aside {
-    font-size: 11px
+    font-size: 12px
   }
   .routes-section .section-aside {
     display: none
@@ -1586,20 +1586,20 @@ img {
     font-size: 18px
   }
   .route-card p {
-    font-size: 12px
+    font-size: 14px
   }
   .route-drive {
-    font-size: 11px;
+    font-size: 12px;
     gap: 5px
   }
   .route-choice {
-    font-size: 11px;
+    font-size: 12px;
     top: 11px;
     left: 11px;
     padding: 5px 7px
   }
   .route-mood {
-    font-size: 11px
+    font-size: 12px
   }
   .itinerary-layout {
     grid-template-columns: minmax(0,1fr) 240px;
@@ -1628,7 +1628,7 @@ img {
     margin-left: 0
   }
   .filter {
-    font-size: 11px;
+    font-size: 12px;
     padding-inline: 13px
   }
   .before-section {
@@ -1672,7 +1672,7 @@ img {
     min-height: 40px
   }
   .saved-button>span:not(.saved-count) {
-    font-size: 11px
+    font-size: 12px
   }
   .saved-count {
     min-width: 19px;
@@ -1681,7 +1681,7 @@ img {
   .site-header nav {
     gap: 26px;
     justify-content: space-between;
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 12px;
     padding-top: 5px
   }
@@ -1714,11 +1714,11 @@ img {
     min-height: 46px
   }
   .hero-actions .text-link {
-    font-size: 11px;
+    font-size: 12px;
     gap: 7px
   }
   .hero-note {
-    font-size: 11px;
+    font-size: 12px;
     margin-top: 18px
   }
   .hero-photo {
@@ -1750,7 +1750,7 @@ img {
     height: 19px
   }
   .trip-strip small {
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: .06em
   }
   .trip-strip strong {
@@ -1791,23 +1791,23 @@ img {
     margin-bottom: 10px
   }
   .route-card p {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 18px
   }
   .route-mood {
-    font-size: 11px
+    font-size: 12px
   }
   .route-drive {
-    font-size: 11px
+    font-size: 12px
   }
   .route-choice {
     top: 14px;
     left: 14px;
-    font-size: 11px;
+    font-size: 12px;
     padding: 6px 9px
   }
   .fine-print {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.8
   }
   .itinerary-section {
@@ -1818,7 +1818,7 @@ img {
     margin-bottom: 21px
   }
   .itinerary-section .section-heading .button {
-    font-size: 11px;
+    font-size: 12px;
     min-height: 40px;
     padding: 9px 13px
   }
@@ -1837,13 +1837,13 @@ img {
     font-size: 13px
   }
   .day-tabs small {
-    font-size: 11px
+    font-size: 12px
   }
   .day-heading h3 {
     font-size: 23px
   }
   .timeline p {
-    font-size: 12px;
+    font-size: 14px;
     max-width: 60ch
   }
   .timeline li {
@@ -1851,7 +1851,7 @@ img {
     gap: 20px
   }
   .day-stay {
-    font-size: 11px
+    font-size: 12px
   }
   .route-summary {
     width: 100%;
@@ -1870,7 +1870,7 @@ img {
     flex-direction: column;
     gap: 7px;
     align-items: flex-start;
-    font-size: 11px;
+    font-size: 12px;
     min-height: 50px
   }
   .route-node::before {
@@ -1886,10 +1886,10 @@ img {
   }
   .route-node small {
     margin: 0;
-    font-size: 11px
+    font-size: 12px
   }
   .route-node strong {
-    font-size: 11px
+    font-size: 12px
   }
   .night-list {
     flex-direction: row;
@@ -1901,7 +1901,7 @@ img {
     gap: 8px
   }
   .night-list strong {
-    font-size: 11px
+    font-size: 12px
   }
   .map-button {
     justify-content: center;
@@ -1921,10 +1921,10 @@ img {
     font-size: 22px
   }
   .place-body>p:not(.place-note) {
-    font-size: 13px
+    font-size: 14px
   }
   .place-note {
-    font-size: 11px
+    font-size: 14px
   }
   .place-links {
     font-size: 12px
@@ -1940,17 +1940,17 @@ img {
     margin-bottom: 4px
   }
   .place-area {
-    font-size: 11px
+    font-size: 12px
   }
   .category-label {
-    font-size: 11px
+    font-size: 12px
   }
   .places-section .section-heading {
     display: block
   }
   .places-section .section-aside {
     margin-top: 14px;
-    font-size: 11px
+    font-size: 12px
   }
   .filter-bar {
     gap: 8px;
@@ -1959,7 +1959,7 @@ img {
   .filter {
     padding: 9px 12px;
     min-height: 44px;
-    font-size: 11px
+    font-size: 12px
   }
   .filter svg {
     width: 15px;
@@ -1972,7 +1972,7 @@ img {
     margin-top: 3px
   }
   .source-note {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.9
   }
   #place-gold-osaka .place-body {
@@ -1999,7 +1999,7 @@ img {
     font-size: 30px
   }
   .before-copy>p {
-    font-size: 12px
+    font-size: 14px
   }
   .before-copy .text-link {
     margin-top: 14px
@@ -2015,7 +2015,7 @@ img {
     font-size: 13px
   }
   .checklist small {
-    font-size: 11px
+    font-size: 14px
   }
   .site-footer {
     padding-block: 24px;
@@ -2025,13 +2025,13 @@ img {
     font-size: 15px
   }
   .site-footer>a:last-child {
-    font-size: 11px
+    font-size: 12px
   }
   .site-footer p {
-    font-size: 11px
+    font-size: 12px
   }
   .toast {
-    font-size: 11px;
+    font-size: 12px;
     padding: 12px 16px;
     bottom: 15px
   }
@@ -2057,7 +2057,7 @@ img {
   body {
     background: white;
     color: #183e36;
-    font-size: 11px
+    font-size: 12px
   }
   .wrap {
     width: 100%
@@ -2142,7 +2142,7 @@ img {
     padding-bottom: 15px
   }
   .timeline p {
-    font-size: 11px
+    font-size: 12px
   }
   .day-heading h3 {
     font-size: 20px
@@ -2154,6 +2154,6 @@ img {
     text-decoration: none
   }
   .source-note {
-    font-size: 11px
+    font-size: 12px
   }
 }
