@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T04:38:06.415637+00:00",
+  "title": "Design System: Kansai, together",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "notification",
+        "value": "0 8px 28px rgba(17,44,32,.18)",
+        "purpose": "Separate the transient saved-place status from the page."
+      }
+    ],
+    "motion": [
+      {
+        "name": "route-reveal",
+        "value": "0.5s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Initial reveal of the connected route strip; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "600px"
+      },
+      {
+        "name": "compact",
+        "value": "800px"
+      },
+      {
+        "name": "desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "wide",
+        "value": "1500px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A clear main action in deep teal.",
+      "html": "<button class=\"ds-primary\">Find your road trip</button>",
+      "css": ".ds-primary{background:var(--green);color:var(--white);font:500 13px/1.4 'DM Sans',sans-serif;padding:13px 21px;border:0;border-radius:9px;min-height:48px}.ds-primary:hover{background:#246d58}.ds-primary:focus-visible{outline:3px solid #ba671e;outline-offset:5px}"
+    },
+    {
+      "name": "Outline action",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "A secondary utility action.",
+      "html": "<button class=\"ds-outline\">Print trip</button>",
+      "css": ".ds-outline{background:transparent;color:var(--green);font:500 13px/1.4 'DM Sans',sans-serif;padding:13px 21px;border:1px solid #a5bcae;border-radius:9px;min-height:48px}.ds-outline:hover{background:#dbe8dc}.ds-outline:focus-visible{outline:3px solid #ba671e;outline-offset:5px}"
+    },
+    {
+      "name": "Place filter",
+      "kind": "chip",
+      "description": "A category toggle with explicit state.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">Sightseeing</button>",
+      "css": ".ds-filter{font:400 12px/1.4 'DM Sans',sans-serif;padding:9px 16px;min-height:43px;border:1px solid var(--line);border-radius:7px;color:var(--ink);background:transparent}.ds-filter[aria-pressed=true]{background:var(--green);color:white}.ds-filter:hover{background:var(--accent);color:white}.ds-filter:focus-visible{outline:3px solid #ba671e;outline-offset:5px}"
+    },
+    {
+      "name": "Place card",
+      "kind": "card",
+      "refersTo": "place-card",
+      "description": "A destination fact with its source and access note.",
+      "html": "<article class=\"ds-card\"><h3>Awaji Hanasajiki</h3><p>Seasonal flower fields beside the sea.</p><a href=\"https://awajihanasajiki.jp/\">Official site</a></article>",
+      "css": ".ds-card{border:1px solid var(--line);border-radius:16px;padding:21px 23px 22px;background:white;color:var(--ink);font-family:'DM Sans',sans-serif}.ds-card h3{font-size:20px;line-height:1.25;margin:0}.ds-card p{color:var(--muted);font-size:12px;line-height:1.8}.ds-card a{color:var(--ink);font-size:11px;text-underline-offset:4px}.ds-card a:focus-visible{outline:3px solid #ba671e;outline-offset:5px}"
+    },
+    {
+      "name": "Route node",
+      "kind": "custom",
+      "description": "A stop in the logical driving sequence.",
+      "html": "<div class=\"ds-node\"><span></span><strong>Awaji Island</strong></div>",
+      "css": ".ds-node{display:flex;align-items:center;gap:13px;min-height:38px;color:var(--ink);font:400 12px/1.6 'DM Sans',sans-serif}.ds-node span{width:9px;height:9px;border:2px solid #387359;border-radius:50%;background:#d9e8db}.ds-node strong{font-weight:500}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Setouchi coastal atlas",
+    "overview": "Daylight photography, deep teal actions, and sea-glass fields make a route choice easy to understand.",
+    "keyCharacteristics": [
+      "Clear route selection",
+      "Daylight contrast",
+      "Connected travel sequence",
+      "Honest venue details"
+    ],
+    "rules": [
+      {
+        "name": "Selection is explicit",
+        "body": "Pair color with a check and accessible state.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Keep official sources beside stops",
+      "Label destination views and inspiration photos"
+    ],
+    "donts": [
+      "Do not invent availability or live traffic",
+      "Do not add a navigation drawer for three links"
+    ]
+  }
+}
