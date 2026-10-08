@@ -41,7 +41,7 @@ for (const place of places) {
 assert.equal(new URL(mapSearch('Namba & Osaka / 日本')).searchParams.get('query'), 'Namba & Osaka / 日本');
 for (const filename of ['index.html', 'credits.html']) {
   const html = readFileSync(filename, 'utf8');
-  for (const match of html.matchAll(/(?:src|href)="\.\/([^"?#]+)"/g)) {
+  for (const match of html.matchAll(/(?:src|href)="\.\/([^"?#]+)(?:[?#][^"]*)?"/g)) {
     assert(existsSync(match[1]), `${filename} references missing file ${match[1]}`);
   }
 }
