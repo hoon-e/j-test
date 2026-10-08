@@ -1,0 +1,56 @@
+[
+  {
+    "asset": "bridge.webp",
+    "title": "Akashi-Kaikyō Bridge.jpg",
+    "creator": "Jason Hsu",
+    "source": "https://commons.wikimedia.org/wiki/File:Akashi-Kaiky%C5%8D_Bridge.jpg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "changes": "Resized, converted to WebP; displayed with a crop."
+  },
+  {
+    "asset": "kyoto.webp",
+    "title": "Bamboo Forest, Arashiyama, Kyoto, Japan.jpg",
+    "creator": "Basile Morin",
+    "source": "https://commons.wikimedia.org/wiki/File:Bamboo_Forest,_Arashiyama,_Kyoto,_Japan.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized, converted to WebP; displayed with a crop."
+  },
+  {
+    "asset": "shirahama.webp",
+    "title": "131221 Shirarahama Beach Shirahama Wakayama pref Japan07s3bs.jpg",
+    "creator": "663highland",
+    "source": "https://commons.wikimedia.org/wiki/File:131221_Shirarahama_Beach_Shirahama_Wakayama_pref_Japan07s3bs.jpg",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "changes": "Resized, converted to WebP; displayed with a crop."
+  },
+  {
+    "asset": "flowers.webp",
+    "title": "Hyogo Prefectural Awaji Hanasajiki Park-Antirrhinum majus.jpg",
+    "creator": "アトさん",
+    "source": "https://commons.wikimedia.org/wiki/File:Hyogo_Prefectural_Awaji_Hanasajiki_Park-Antirrhinum_majus.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "changes": "Resized, converted to WebP; displayed with a crop."
+  },
+  {
+    "asset": "food.webp",
+    "title": "Deluxe sashimi platter 01.jpg",
+    "creator": "T.Tseng",
+    "source": "https://commons.wikimedia.org/wiki/File:Deluxe_sashimi_platter_01.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "changes": "Resized, converted to WebP; displayed with a crop."
+  },
+  {
+    "asset": "gym.webp",
+    "title": "Gym Dumbbells For Working Out (193383405).jpeg",
+    "creator": "Sterling",
+    "source": "https://commons.wikimedia.org/wiki/File:Gym_Dumbbells_For_Working_Out_(193383405).jpeg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "changes": "Resized, converted to WebP; displayed with a crop."
+  }
+]
