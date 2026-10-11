@@ -238,7 +238,8 @@ ol {
 
 .route-card.selected {
   border-color: var(--green);
-  box-shadow: 0 0 0 1px var(--green), 0 12px 28px -16px rgba(23, 77, 66, .55)
+  outline: 1px solid var(--green);
+  box-shadow: 0 12px 28px -16px rgba(23, 77, 66, .55)
 }
 
 .route-image {
