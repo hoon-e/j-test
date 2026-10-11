@@ -242,6 +242,11 @@ ol {
   box-shadow: 0 12px 28px -16px rgba(23, 77, 66, .55)
 }
 
+.route-card.selected:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 4px
+}
+
 .route-image {
   position: relative;
   display: block;
