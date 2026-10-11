@@ -21,6 +21,7 @@ for (const route of routes) {
         assert(byId.has(stop.place), `Unknown itinerary stop: ${stop.place}`);
         assert(available.includes(byId.get(stop.place)), `Stop belongs to another route: ${stop.place}`);
       } else assert(stop.name && stop.text);
+      assert(!/렌터카|반납/.test(stop.text), `Rental-car copy left in ${route.id}`);
     }
   }
   const loop = new URL(drivingLoop(route));
@@ -30,13 +31,9 @@ for (const route of routes) {
   assert(existsSync(`assets/${route.image}.webp`));
 }
 for (const place of places) {
-  assert(place.route === 'shared' || routes.some(route => route.id === place.route));
+  assert(place.route === 'shared' || [].concat(place.route).every(id => routes.some(route => route.id === id)));
   assert.equal(new URL(place.source).protocol, 'https:');
   assert(place.mapQuery && place.description && place.note);
-  if (place.image) {
-    assert(existsSync(`assets/${place.image}.webp`));
-    assert(place.imageAlt && place.imageLabel);
-  }
 }
 assert.equal(new URL(mapSearch('Namba & Osaka / 日本')).searchParams.get('query'), 'Namba & Osaka / 日本');
 for (const filename of ['index.html', 'credits.html']) {

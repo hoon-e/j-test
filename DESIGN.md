@@ -31,7 +31,7 @@ typography:
     letterSpacing: "-0.025em"
   body:
     fontFamily: "DM Sans, Apple SD Gothic Neo, Malgun Gothic, sans-serif"
-    fontSize: "15px"
+    fontSize: "16px"
     fontWeight: 400
     lineHeight: 1.6
   control:
@@ -84,7 +84,7 @@ Korean copy uses the device’s Korean sans serif (Apple SD Gothic Neo or Malgun
 
 ## Layout
 
-The main container is 1200px with 48px side gutters at typical desktop sizes. Desktop uses three columns for route and place choices, and a broad itinerary beside a 300px summary. At 800px, place choices use two columns; below 600px, the hero, routes, places, and checklist become single columns with 20px side gutters. The route strip becomes horizontal on mobile. Printing reveals all three itinerary days and removes interactive controls.
+The main container is 1200px with 48px side gutters at typical desktop sizes. The route picker is the first-viewport hero: five photo cards in one row on desktop, a horizontal snap-scroll row below 1100px. The selected route sits on the mint field as a photo plus summary (highlights, nights, driving note, map link), followed by all three days as side-by-side white columns; they stack below 1100px. Place cards are text-only, ordered sights, food, gyms, three columns on desktop, two at tablet, one below 760px with 20px gutters.
 
 ## Elevation & Depth
 
@@ -96,7 +96,7 @@ Photographic surfaces and cards use 16px corners. Action buttons use 9px corners
 
 ## Components
 
-Route choices are full-card toggle buttons with an explicit selected check. Day tabs use a roving keyboard focus and arrow-key navigation. Place filters expose their pressed state. Bookmark buttons pair a pressed state with a clear action label. The main checklist uses native checkboxes. Focus outlines use a visible warm accent with a 5px offset. Reduced motion disables the route reveal and transitions.
+Route choices are full-card toggle buttons with an explicit selected check. Day columns are always visible; there are no tabs. Place filters show counts and expose their pressed state. Selecting a route scrolls to the plan with one short rise-in of the plan. Focus outlines use a visible warm accent with a 5px offset. Reduced motion disables the route reveal and transitions.
 
 ## Do's and Don'ts
 
