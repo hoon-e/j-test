@@ -4,7 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { routes, places, placesForRoute, mapSearch, drivingLoop } from './data.mjs';
 
 execFileSync(process.execPath, ['--check', 'app.mjs']);
-assert.equal(routes.length, 3);
+assert.equal(routes.length, 5);
 assert.equal(new Set(places.map(place => place.id)).size, places.length, 'Place IDs must be unique');
 const byId = new Map(places.map(place => [place.id, place]));
 for (const route of routes) {
@@ -45,4 +45,4 @@ for (const filename of ['index.html', 'credits.html']) {
     assert(existsSync(match[1]), `${filename} references missing file ${match[1]}`);
   }
 }
-console.log(`PASS: 3 routes, 9 itinerary days, ${places.length} places, category coverage, directions, and local assets.`);
+console.log(`PASS: ${routes.length} routes, ${routes.length * 3} itinerary days, ${places.length} places, category coverage, directions, and local assets.`);

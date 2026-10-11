@@ -4,7 +4,7 @@ A responsive two-night road-trip planner for five travelers starting in Namba, O
 
 Live site: https://hoon-e.github.io/j-test/
 
-Compare Awaji Island and Kobe, Kyoto and Lake Biwa, or Wakayama and Shirahama. The selected route updates the three-day itinerary, overnight bases, driving loop, and sightseeing, dining, and gym options. Saved stops stay in the browser on the current device. The print view includes all three itinerary days.
+Compare Awaji Island and Kobe, Kyoto and Lake Biwa, Wakayama and Shirahama, Kurashiki and Okayama, or Minoh and Arima Onsen. The selected route updates the three-day itinerary, overnight bases, driving loop, and sightseeing, dining, and gym options. Saved stops stay in the browser on the current device. The print view includes all three itinerary days.
 
 ## Run locally
 
@@ -28,4 +28,4 @@ Update venue and route content in `data.mjs`, UI behavior in `app.mjs`, and layo
 
 The source lives on `main`. GitHub Pages serves the root of `gh-pages`, which contains only `index.html`, `credits.html`, `styles.css`, `app.mjs`, `data.mjs`, `.nojekyll`, and `assets/`. Publish those files to `gh-pages` after updating and checking the source. Design records and checks are excluded from the published site.
 
-Venue information was checked against linked official sources on 8 October 2026. Driving times are estimates. Dates, accommodation availability, live traffic, restaurant reservations, and gym eligibility are not provided by the site.
+Venue information was checked against linked official sources on 8 October 2026 (Kurashiki and Minoh routes on 11 October 2026). Driving times are estimates. Dates, accommodation availability, live traffic, restaurant reservations, and gym eligibility are not provided by the site.
