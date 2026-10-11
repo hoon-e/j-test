@@ -27,6 +27,24 @@
     "changes": "Resized, converted to WebP; displayed with a crop."
   },
   {
+    "asset": "kurashiki.webp",
+    "title": "Kurashiki Canal 倉敷川 - panoramio.jpg",
+    "creator": "lienyuan lee",
+    "source": "https://commons.wikimedia.org/wiki/File:Kurashiki_Canal_%E5%80%89%E6%95%B7%E5%B7%9D_-_panoramio.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "changes": "Cropped, resized, converted to WebP; displayed with a crop."
+  },
+  {
+    "asset": "minoh.webp",
+    "title": "Minoh Falls Minoh Osaka pref Japan05s5.jpg",
+    "creator": "663highland",
+    "source": "https://commons.wikimedia.org/wiki/File:Minoh_Falls_Minoh_Osaka_pref_Japan05s5.jpg",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "changes": "Resized, converted to WebP; displayed with a crop."
+  },
+  {
     "asset": "flowers.webp",
     "title": "Hyogo Prefectural Awaji Hanasajiki Park-Antirrhinum majus.jpg",
     "creator": "アトさん",

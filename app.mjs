@@ -1,4 +1,4 @@
-import { routes, places, placesForRoute, drivingLoop, mapSearch, checkedDate } from './data.mjs?v=20261008-ko';
+import { routes, places, placesForRoute, drivingLoop, mapSearch, checkedDate } from './data.mjs?v=20261011-ko';
 
 const icons = {
   arrow: '<path d="M7 17 17 7M7 7h10v10"/>',
